@@ -8,10 +8,10 @@ Following the official Flask tutorial [here](https://flask.palletsprojects.com/e
 # Setup
 ```bash
 pip install -e .
+FLASK_APP=flaskr FLASK_ENV=development flask init-db
 ```
 
 # Run
 ```bash
-FLASK_APP=flaskr FLASK_ENV=development flask init-db # only on the first run or when you want to clear the DB
 FLASK_APP=flaskr FLASK_ENV=development flask run
 ```
