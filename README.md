@@ -15,3 +15,12 @@ FLASK_APP=flaskr FLASK_ENV=development flask init-db
 ```bash
 FLASK_APP=flaskr FLASK_ENV=development flask run
 ```
+
+# Tests
+Make sure you have installed `pytest` and `coverage` with `pip`. After that, just run `pytest` in the terminal to run the tests :) 
+
+In order to check the coverage
+```bash
+coverage run -m pytest
+coverage report
+```
